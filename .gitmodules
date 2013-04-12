@@ -1,0 +1,6 @@
+[submodule "pynt"]
+	path = pynt
+	url = git://github.com/h0ke/pynt.git
+[submodule "lib/pynt"]
+	path = lib/pynt
+	url = git://github.com/h0ke/pynt.git
