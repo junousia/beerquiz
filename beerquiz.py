@@ -12,9 +12,11 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import urllib2
-from pynt.pynt import Settings, Beer
 from random import randint
 import sys
+sys.path.insert(0, './lib/pynt')
+from pynt.pynt import Settings, Beer
+
 
 Settings.host           = 'http://api.openbeerdatabase.com/v1/'
 Settings.public_token   = 'db198084eb53128e0fb7246d00aa424ab2fc28d713b43d0df5908652f4a8af4c'
